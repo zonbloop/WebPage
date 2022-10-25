@@ -592,3 +592,140 @@ a:hover .u-link:before,a:hover.u-link:before{transform:scaleY(-1)}
 .c-error_body{text-align:center;padding:2vw 5vw}
 .c-error_body_desc{margin:0 0 20px}
 .c-error_body_link{font-size:16px}
+a:hover .circ,
+a:focus .circ,
+a:active .circ {
+ color:#fff;
+ background-color:#16a6b6
+}
+a:hover .circ .icon__border,
+a:focus .circ .icon__border,
+a:active .circ .icon__border {
+ opacity:1
+}
+.circ .icon__border {
+ -moz-transition-property:opacity;
+ -o-transition-property:opacity;
+ -webkit-transition-property:opacity;
+ transition-property:opacity;
+ -moz-transition-duration:275ms;
+ -o-transition-duration:275ms;
+ -webkit-transition-duration:275ms;
+ transition-duration:275ms;
+ color:#16a6b6;
+ opacity:.9
+}
+.circ.invert {
+ color:#fff;
+ background-color:#16a6b6
+}
+a:hover .circ.invert,
+a:focus .circ.invert,
+a:active .circ.invert {
+ color:#16a6b6;
+ background-color:rgba(255,255,255,.55)
+}
+a:hover .circ.invert .icon__border,
+a:focus .circ.invert .icon__border,
+a:active .circ.invert .icon__border {
+ opacity:.9
+}
+.circ.invert .icon__border {
+ color:#16a6b6
+}
+.circ.secondary {
+ color:#ee6557
+}
+a:hover .circ.secondary,
+a:focus .circ.secondary,
+a:active .circ.secondary {
+ background-color:#ee6557
+}
+.circ.secondary .icon__border {
+ color:#ee6557
+}
+.circ.secondary.invert {
+ color:#fff;
+ background-color:#ee6557
+}
+a:hover .circ.secondary.invert,
+a:focus .circ.secondary.invert,
+a:active .circ.secondary.invert {
+ color:#ee6557;
+ background-color:rgba(255,255,255,.55)
+}
+.circ.secondary.invert .icon__border {
+ color:#ee6557
+}
+.circ.tertiary {
+ color:#adadad
+}
+a:hover .circ.tertiary,
+a:focus .circ.tertiary,
+a:active .circ.tertiary {
+ background-color:#adadad
+}
+.circ.tertiary .icon__border {
+ color:#adadad
+}
+.circ.tertiary.invert {
+ color:#fff;
+ background-color:#adadad
+}
+a:hover .circ.tertiary.invert,
+a:focus .circ.tertiary.invert,
+a:active .circ.tertiary.invert {
+ color:#adadad;
+ background-color:rgba(255,255,255,.55)
+}
+.circ.tertiary.invert .icon__border {
+ color:#adadad
+}
+.circ.large {
+ width:12px
+}
+.circ.small {
+ width:6px
+}
+.icon-box {
+ -moz-border-radius:4px;
+ -webkit-border-radius:4px;
+ border-radius:4px;
+ -moz-transition-property:background-color;
+ -o-transition-property:background-color;
+ -webkit-transition-property:background-color;
+ transition-property:background-color;
+ -moz-transition-duration:275ms;
+ -o-transition-duration:275ms;
+ -webkit-transition-duration:275ms;
+ transition-duration:275ms;
+ color:#fff;
+ background-color:#c5c5c5;
+ width:5px;
+ border:none;
+ display:block
+}
+.icon-box:hover,
+.icon-box:focus,
+.icon-box:active {
+ color:#fff;
+ background-color:#16a6b6
+}
+.icon-box:hover .icon__border,
+.icon-box:focus .icon__border,
+.icon-box:active .icon__border {
+ color:#16a6b6;
+ opacity:1
+}
+.icon-box .icon__border {
+ -moz-transition-property:color,opacity;
+ -o-transition-property:color,opacity;
+ -webkit-transition-property:color,opacity;
+ transition-property:color,opacity;
+ -moz-transition-duration:275ms;
+ -o-transition-duration:275ms;
+ -webkit-transition-duration:275ms;
+ transition-duration:275ms;
+ color:#c5c5c5;
+ opacity:.9
+}
